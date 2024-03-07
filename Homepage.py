@@ -1,5 +1,12 @@
 import streamlit as st
 
+Homepage.py # This is the file you run with "streamlit run"
+└─── pages/
+  └─── 1_Age_group.py.py # This is a page
+  └─── 2_INterests_per_continent.py # This is another page
+  └─── 3_Conclusie.py # So is this
+
+
 st.set_page_config(page_title="Case 2 groep 5")
 
 st.write("# Social media interesses over de wereld")
