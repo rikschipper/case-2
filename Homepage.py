@@ -1,6 +1,5 @@
 import streamlit as st
-from Pages.Age_groups import Age_groups
-# from case-2/Pages import Age_groups, Interests_per_continent, Conclusie
+from case-2.Pages import Age_groups, Interests_per_continent, Conclusie
 
 # Create a navigation menu in the sidebar
 page = st.sidebar.selectbox("Go to", ["Age Groups", "Interests per Continent", "Conclusie"])
